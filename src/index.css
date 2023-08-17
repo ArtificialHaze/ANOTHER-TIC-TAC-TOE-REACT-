@@ -1,0 +1,40 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  max-width: 310px;
+  margin-top: 3rem;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  font-size: 5rem;
+  color: #e8e5e5;
+  border: 1px solid black;
+}
+
+.square_O {
+  background-color: greenyellow;
+}
+
+.square_X {
+  background-color: crimson;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.reset {
+  margin-top: 2rem;
+  font-size: 2rem;
+  background-color: aqua;
+  border: none;
+  border-radius: 6px;
+  padding: 1rem;
+  cursor: pointer;
+}
